@@ -1,1 +1,2 @@
 # odin-recipes
+A beginner website to test my html skills and gain experience. To begin with it will just contain an index page with some information and links to other recipes, but as Odin progresses I will be returning to add styling with CSS, and maybe some JavaScript.
