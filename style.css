@@ -1,6 +1,7 @@
 * {
     font-family:"Helvetica","Times New Roman", sans-serif;
-    background-color:rgb(177, 245, 222);
+    background-color:rgb(215, 243, 171);
+    box-sizing:border-box;
     
 }
 
@@ -10,8 +11,22 @@ img {
 }
 
 h1 {
+    
+    text-align: left;
+    display:block;
+    margin-left: 100px;
+    margin-bottom:150px;
+    font-size:80px;
+}
+
+h2 {
     text-align: center;
-    font-size:50px
+    margin-bottom: 200px;
+    font-family:"Helvetica","Times New Roman", sans-serif;
+    font-size:50px;
+    display:block;
+
+
 }
 
 .link {
@@ -24,8 +39,37 @@ h1 {
     font-weight: 800;
 }
 
-
-
-li, p {
+li, 
+p {
     font-size:20px
+}
+
+.left-align-image{
+    margin-left: 50px;
+    margin-right:100px;
+    height:370px;
+    display:inline-block;
+    width:500px;
+
+}
+
+.left-align-text{
+    font-size:50px;
+    margin-left:200px;
+    margin-right:350px;
+    margin-bottom: 100px;
+    display:inline-block;
+}
+
+.right-align-image{
+    
+    display:inline-block;
+    height:auto;
+    width:500px;
+
+}
+.right-align-text{
+    font-size:50px;
+    display:inline-block;
+    
 }
